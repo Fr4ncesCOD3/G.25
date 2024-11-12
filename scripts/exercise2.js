@@ -5,11 +5,11 @@
 //classe Pet con proprietà petName, ownerName, species, breed
 
 class Pet {
-    constructor(petName, ownerName, species, breed) {
-        this.petName = petName;
-        this.ownerName = ownerName;
-        this.species = species;
-        this.breed = breed;
+    constructor(__petName, __ownerName, __species, __breed) {
+        this.petName = __petName;
+        this.ownerName = __ownerName;
+        this.species = __species;
+        this.breed = __breed;
     }
 
     // metodo che restituisca true se due animali condividono lo stesso padrone.
